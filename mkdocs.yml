@@ -37,6 +37,18 @@ theme:
 
 plugins:
   - search
+  - llmstxt:
+      markdown_description: |
+        Windhood-JZA's AI Agent Notes - practical guides for running
+        autonomous AI agents on a personal budget.
+      full_output: llms-full.txt
+      sections:
+        Home:
+          - index.md: Home
+        Posts:
+          - posts/2026-06-22-headroom-hermes.md: Routing Hermes Through Headroom
+        Site:
+          - about.md: About
 
 markdown_extensions:
   - admonition
