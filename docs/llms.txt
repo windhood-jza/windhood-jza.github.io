@@ -1,0 +1,15 @@
+# AI Agent Tutorials — Leon Jiang
+
+> Practical guides for running autonomous AI agents in production: Hermes Agent, Headroom compression, TradingView automation, multi-platform content pipelines.
+
+## Tutorials
+
+- [Routing Hermes Agent Through a Local Headroom Proxy](posts/2026-06-22-headroom-hermes.md): Transparently route all Hermes LLM calls through a local Headroom reverse proxy with Kompress context compression. Goal: ≥30% token savings on long conversations. Constraints: Headroom ≥0.26, runtime plugin required for OAuth providers, GPU optional but recommended. Verification: `curl 127.0.0.1:8788/health` returns ok AND Headroom logs show non-zero `tokens_saved` for a real Hermes chat request.
+
+## Tooling
+
+- [x-content-pipeline](https://github.com/yourname/x-content-pipeline): Publish articles from Obsidian vault to Dev.to and Hashnode with one command. Goal: zero-touch multi-platform publishing with canonical URL pointing back to your blog. Constraints: Dev.to API key and Hashnode PAT required. Verification: dry-run mode produces a valid `publish_manifest.json`.
+
+## Optional
+
+- [Author blog index](https://yourblog.com/): Full post archive, RSS feed, and author notes.
