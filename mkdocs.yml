@@ -37,11 +37,6 @@ theme:
 
 plugins:
   - search
-  - llmstxt:
-      markdown_description: |
-        Windhood-JZA's AI Agent Notes - practical guides for running
-        autonomous AI agents on a personal budget.
-      full_output: docs/llms-full.txt
 
 markdown_extensions:
   - admonition
