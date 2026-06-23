@@ -1,11 +1,12 @@
 ---
 title: "Routing Hermes Agent Through a Local Headroom Proxy for Context Compression"
+updated: 2026-06-22
 date: 2026-06-22
 author: Leon Jiang
 tags: [hermes-agent, headroom, kompress, context-compression, llm-proxy, oauth, tutorial]
 language: en
-canonical_url: "https://yourblog.com/posts/2026-06-22-headroom-hermes"
-description: "Make every Hermes Agent LLM call transparently route through a local Headroom proxy with Kompress context compression — 60% token savings on long conversations, no API key changes, OAuth passthrough preserved. Constraints: Headroom >= 0.26, runtime plugin required for OAuth providers, GPU optional but recommended. Verification: health endpoint + non-zero tokens_saved in Headroom logs."
+canonical_url: "https://windhood-jza.github.io/posts/2026-06-22-headroom-hermes/"
+description: "Route Hermes Agent through a local Headroom proxy for context compression with explicit constraints, verification, and rollback."
 cover_image: ""
 publish_targets: [blog, dev-to, hashnode]
 ---

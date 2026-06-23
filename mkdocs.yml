@@ -37,6 +37,11 @@ theme:
 
 plugins:
   - search
+  - rss:
+      match_path: posts/.*
+      date_from_meta:
+        as_creation: date
+        as_update: updated
   - llmstxt:
       markdown_description: |
         Windhood-JZA's AI Agent Notes - practical guides for running
