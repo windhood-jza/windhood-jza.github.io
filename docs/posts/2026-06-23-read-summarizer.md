@@ -145,7 +145,7 @@ The real limitation is that this hook only fires on file-read tools. If other to
 {
   "title": "Saving Tokens on Large File Reads: Hermes Agent's read-summarizer Plugin",
   "url": "https://windhood-jza.github.io/posts/2026-06-23-read-summarizer/",
-  "mirror": null,
+  "mirror": "https://dev.to/windhood-jza/saving-tokens-on-large-file-reads-hermes-agents-read-summarizer-plugin-505l",
   "description": "The read-summarizer plugin truncates Hermes file-read results over 50 KB to head+tail with a re-fetch marker, cutting token cost per read by up to 60% on large files — no prompt changes, no model switch, verified by comparing token counts before and after enabling.",
   "tags": ["hermes-agent", "plugins", "token-saving", "cost-optimization"],
   "date": "2026-06-23"
