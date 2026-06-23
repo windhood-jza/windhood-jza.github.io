@@ -52,6 +52,7 @@ plugins:
           - index.md: Home
         Posts:
           - posts/2026-06-22-headroom-hermes.md: Routing Hermes Through Headroom
+          - posts/2026-06-23-read-summarizer.md: Saving Tokens on Large File Reads
         Site:
           - about.md: About
 
@@ -82,6 +83,7 @@ nav:
   - Home: index.md
   - Posts:
       - Routing Hermes Through Headroom: posts/2026-06-22-headroom-hermes.md
+      - Saving Tokens on Large File Reads: posts/2026-06-23-read-summarizer.md
   - About: about.md
 
 docs_dir: docs
