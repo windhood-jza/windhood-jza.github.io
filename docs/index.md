@@ -20,6 +20,14 @@ These notes document what works, what breaks, and what I had to figure out the h
 
     *Solo developer · Personal budget · AI agents I want to run anyway.*
 
+-   :material-file-document-outline:{ .lg .middle } **[Saving Tokens on Large File Reads: Hermes Agent's read-summarizer Plugin](posts/2026-06-23-read-summarizer.md)**
+
+    ---
+
+    The read-summarizer plugin truncates Hermes file-read results over 50 KB to head+tail with a re-fetch marker, cutting token cost per read by up to 60% on large files — no prompt changes, no model switch.
+
+    *Solo developer · Personal budget · AI agents I want to run anyway.*
+
 </div>
 
 ---
