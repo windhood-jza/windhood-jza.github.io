@@ -1,4 +1,6 @@
 site/
+.git_url
+do_push.py
 __pycache__/
 *.pyc
 .venv/
